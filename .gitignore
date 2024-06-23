@@ -1,0 +1,53 @@
+# 忽略 Python 虚拟环境
+venv/
+.venv
+.env
+
+# 忽略依赖包
+__pycache__/
+*.pyc
+
+# 忽略 macOS Finder 生成的 .DS_Store 文件
+.DS_Store
+
+# 忽略 IDE 生成的文件
+*.pyi
+*.pyd
+*.pyo
+
+# 忽略日志文件
+*.log
+
+# 忽略编译后的文件
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+
+# 忽略vscode 生成的文件
+.vscode
+
+# 忽略 node_modules 文件夹
+node_modules/
+
+
+# 忽略测试文件
+tests/
+venv
+
+# 忽略日志文件
+app/log/AutoJMP
+
+# 忽略sqlite文件
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3-shm
+db.sqlite3-wal
+*.db
+
+# 忽略数据库迁移文件
+migrations 
+
